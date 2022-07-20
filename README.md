@@ -25,7 +25,7 @@ Los detalles del problema, tanto como requerimientos y reglas de negocio seguida
 
 #### Pruebas
 
-Junto a la simulación se realizo una suite de test en JUnit5 para probar las funciones y comprobar el cumplimiento de los requisitos, este se desarrolla en `src/test/CafeteraTest.java` -  *Code Coverage 68,7%* sin fallas actualmente.
+Junto a la simulación se realizo una suite de test en JUnit5 para probar las funciones y comprobar el cumplimiento de los requisitos, este se desarrolla en `src/test/CafeteraTest.java` -  *Code Coverage 66,6%* sin fallas actualmente.
 
 Se incluye un log de una *prueba manual* (`Main.java`) donde fue aplicada *Code Coverage llegando a un 68,8%*, el log el mencionado encuentra en: `src/logs/EjemploFullManualMain_68.8_coverage.log`
 
