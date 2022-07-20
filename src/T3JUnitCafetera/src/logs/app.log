@@ -1,59 +1,8 @@
-2022-07-20 11:06:23.736 INFO [main] [T3JUnitCafetera.Main.main(Main.java:24)] - Iniciando cafetera.
-2022-07-20 11:06:26.017 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta '(Expresso,' invalido (faltan datos).
-2022-07-20 11:09:01.916 INFO [main] [T3JUnitCafetera.Main.main(Main.java:24)] - Iniciando cafetera.
-2022-07-20 11:10:27.176 INFO [main] [T3JUnitCafetera.Main.main(Main.java:24)] - Iniciando cafetera.
-2022-07-20 11:10:29.478 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'NO' invalido (faltan datos).
-2022-07-20 11:10:54.521 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'negativa,-1000,0,0,0' invalido (faltan datos).
-2022-07-20 11:11:07.374 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'negativa,-1000,0,0,0,0' invalido, java.lang.Exception: Precio de bebida '-1000' negativo, límites [0,2147483647].
-2022-07-20 11:11:40.037 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'Inventario fuera,1000,0,0,0,300' invalido, java.lang.Exception: Unidades de azúcar '300' fuera de límites [0,40].
-2022-07-20 11:11:44.546 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta '' invalido (faltan datos).
-2022-07-20 11:12:01.543 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'negativa,1000,50,0,0,0' invalido, java.lang.Exception: Unidades de café '50' fuera de límites [0,10].
-2022-07-20 11:12:14.968 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'negativa,1000,10,60,0,0' invalido, java.lang.Exception: Unidades de chocolate '60' fuera de límites [0,10].
-2022-07-20 11:12:58.146 WARN [main] [T3JUnitCafetera.Cafetera.confInicial(Cafetera.java:174)] - Error manejado. Configuración de cafetera: Formato receta 'negativa,1000,10,10,400,0' invalido, java.lang.Exception: Unidades de leche '400' fuera de límites [0,80].
-2022-07-20 11:13:46.538 INFO [main] [T3JUnitCafetera.Main.main(Main.java:26)] - Cafetera iniciada
-2022-07-20 11:13:46.538 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): En espera
-2022-07-20 11:13:46.538 WARN [main] [T3JUnitCafetera.Main.main(Main.java:98)] - Opción inválida de menú: En espera
-2022-07-20 11:13:55.397 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 2
-2022-07-20 11:13:55.398 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CAFE: 0
-2022-07-20 11:13:55.399 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CHOCOLATE: 0
-2022-07-20 11:13:55.399 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina LECHE: 0
-2022-07-20 11:13:55.400 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina AZUCAR: 0
-2022-07-20 11:13:58.070 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 1
-2022-07-20 11:14:07.806 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 2
-2022-07-20 11:14:07.807 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CAFE: 0
-2022-07-20 11:14:07.807 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CHOCOLATE: 0
-2022-07-20 11:14:07.808 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina LECHE: 0
-2022-07-20 11:14:07.808 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina AZUCAR: 0
-2022-07-20 11:14:09.576 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 1
-2022-07-20 11:14:21.171 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:224)] - Error manejado, Formato receta '1.4,0,0,5' invalido, java.lang.NumberFormatException: For input string: "1.4"
-2022-07-20 11:14:35.016 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:224)] - Error manejado, Formato receta '999999999999999999999,4,4,4,4' invalido, java.lang.NumberFormatException: For input string: "999999999999999999999"
-2022-07-20 11:14:53.048 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 1
-2022-07-20 11:15:54.698 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 2
-2022-07-20 11:15:54.699 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CAFE: 20
-2022-07-20 11:15:54.699 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CHOCOLATE: 20
-2022-07-20 11:15:54.700 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina LECHE: 240
-2022-07-20 11:15:54.700 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina AZUCAR: 120
-2022-07-20 11:15:56.394 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 1
-2022-07-20 11:15:59.711 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:224)] - Error manejado, Formato receta '1,1,1,1' invalido, java.lang.Exception: Unidades de leche '241' fuera de límites [0,240].
-2022-07-20 11:16:17.497 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 2
-2022-07-20 11:16:17.498 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CAFE: 21
-2022-07-20 11:16:17.498 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina CHOCOLATE: 22
-2022-07-20 11:16:17.498 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina LECHE: 2
-2022-07-20 11:16:17.499 INFO [main] [T3JUnitCafetera.Main.main(Main.java:51)] - Inventario actual máquina AZUCAR: 2
-2022-07-20 11:17:16.661 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 1
-2022-07-20 11:18:03.955 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:224)] - Error manejado, Formato receta '9,9,238,118' invalido, java.lang.Exception: Unidades de chocolate '31' fuera de límites [0,30].
-2022-07-20 11:18:27.615 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:224)] - Error manejado, Formato receta '8,8,238,118' invalido, java.lang.Exception: Unidades de café '38' fuera de límites [0,30].
-2022-07-20 11:18:40.916 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 3
-2022-07-20 11:18:42.779 WARN [main] [T3JUnitCafetera.Main.main(Main.java:90)] - java.lang.Exception: Error manejado, Formato compra 'p' invalido (faltan datos).
-2022-07-20 11:18:50.417 INFO [main] [T3JUnitCafetera.Main.main(Main.java:86)] - Transacción exitosa. Detalles-> Mensaje:Inventario insuficiente.Vuelto: 1000
-2022-07-20 11:18:53.417 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 3
-2022-07-20 11:19:05.028 INFO [main] [T3JUnitCafetera.Main.main(Main.java:86)] - Transacción exitosa. Detalles-> Mensaje:Inventario insuficiente.Vuelto: 1000
-2022-07-20 11:19:29.553 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): otra,1
-2022-07-20 11:19:29.553 WARN [main] [T3JUnitCafetera.Main.main(Main.java:98)] - Opción inválida de menú: otra,1
-2022-07-20 11:19:51.694 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): otra,11
-2022-07-20 11:19:51.694 WARN [main] [T3JUnitCafetera.Main.main(Main.java:98)] - Opción inválida de menú: otra,11
-2022-07-20 11:20:00.902 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 3
-2022-07-20 11:20:06.618 INFO [main] [T3JUnitCafetera.Main.main(Main.java:86)] - Transacción exitosa. Detalles-> Mensaje:Dinero insuficiente.Vuelto: 1
-2022-07-20 11:20:11.865 INFO [main] [T3JUnitCafetera.Main.main(Main.java:31)] - Estado cafetera(proceso actual): 3
-2022-07-20 11:20:16.566 INFO [main] [T3JUnitCafetera.Main.main(Main.java:86)] - Transacción exitosa. Detalles-> Mensaje:Su bebida otra esta lista.Vuelto: 990
-2022-07-20 11:34:22.034 INFO [main] [T3JUnitCafetera.Main.main(Main.java:24)] - Iniciando cafetera.
+2022-07-20 12:09:45.627 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:235)] - Error manejado, Formato receta '(10,-4,3,9)' invalido, java.lang.Exception: Unidades de chocolate '-4' fuera de límites [0,30].
+2022-07-20 12:09:45.632 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:235)] - Error manejado, Formato receta '(10,4,7,2147483648)' invalido, java.lang.NumberFormatException: For input string: "2147483648"
+2022-07-20 12:09:45.677 WARN [main] [T3JUnitCafetera.Cafetera.AgregarInventario(Cafetera.java:235)] - Error manejado, Formato receta '1,-3,0,36' invalido, java.lang.Exception: Unidades de chocolate '-3' fuera de límites [0,30].
+2022-07-20 12:09:45.680 INFO [main] [T3JUnitCafetera.Cafetera.realizarOrden(Cafetera.java:283)] - Entrada
+2022-07-20 12:09:45.687 INFO [main] [T3JUnitCafetera.Cafetera.realizarOrden(Cafetera.java:283)] - Entrada
+2022-07-20 12:09:45.692 INFO [main] [T3JUnitCafetera.Cafetera.realizarOrden(Cafetera.java:283)] - Entrada
+2022-07-20 12:09:45.699 INFO [main] [T3JUnitCafetera.Cafetera.realizarOrden(Cafetera.java:283)] - Entrada
+2022-07-20 12:09:45.699 INFO [main] [T3JUnitCafetera.Cafetera.realizarOrden(Cafetera.java:283)] - Entrada
